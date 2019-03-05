@@ -1,0 +1,19 @@
+{
+  "name": "pm-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify src/index.js -o dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prosemirror-model": "^1.7.0",
+    "prosemirror-state": "^1.2.2",
+    "prosemirror-view": "^1.8.3"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.3"
+  }
+}
